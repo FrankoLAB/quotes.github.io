@@ -1,0 +1,20 @@
+body {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+@font-face {
+    font-family: 'raleway-thin';
+    src: url('../fonts/raleway-thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/raleway.ttf') format('truetype');
+}
+
+@import "header";
+@import "footer";
+@import "mobile768";
+
+
